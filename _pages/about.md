@@ -2,39 +2,52 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Post-doctoral Data Scientist and Researcher</a>
+subtitle: <a href='#'><b>Post-doctoral Data Scientist and Researcher</b></a>
 
 profile:
   align: right
-  image: IMG_1383_tilendra1.jpg
+  image: IMG_1383_tilendra1_small.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Located at Durham, NC, USA</p>
+    <p>  &nbsp;&nbsp;  <small><small>Dr. Tilendra Choudhary, Ph.D.</small></small></p>
+    <p>  &nbsp;&nbsp;  <small>Located at Durham, NC, USA</p></small>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 Hello :smiley::wave:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My name is Tilendra Choudhary, a post-doctoral data scientist and researcher at [Duke University](https://duke.edu/) <i class="fa-solid fa-building-columns"></i>, Durham, NC with a focus on <b>data science</b>, <b>signal processing</b>, and <b>machine learning</b>. Before here, I have worked closely with Emory + GeorgiaTech Univ and Brigosha Technologies (R&D). As an AI enthusiast, I'm endlessly fascinated by new technologies and innovations in the fields of electronics and computer science. My current areas of research and development include physiological signal analysis, bioinformatics, AI and ML for healthcare and for other domains. Apart from research articles, I always enjoy reading spiritual scriptures :books:.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My name is Tilendra Choudhary, a post-doctoral data scientist and researcher at [<b>Duke University, USA</b>](https://duke.edu/) <i class="fa-solid fa-building-columns"></i> with a focus on <b>data science</b>, <b>signal processing</b>, and <b>machine learning</b>. Before here, I have worked closely with <b>Emory + GeorgiaTech Univ.</b> (as post-doc) and <b>Brigosha Technologies R&D</b> (as Research Engineer). As an AI enthusiast, I'm endlessly fascinated by new technologies and innovations in the fields of electronics and computer science. My current areas of research and development include physiological signal analysis, bioinformatics, AI and ML for healthcare and for other domains. Apart from research articles, I always enjoy reading spiritual scriptures :open_book:.
 
 <b>You can find me at these venues:</b> <big><big> &nbsp;&nbsp; [<i class="fa-brands fa-google-scholar"></i>](https://scholar.google.com/citations?user=7YiBBC8AAAAJ&hl=en&inst=10163712085368340378) &nbsp;&nbsp; [<i class="fa-brands fa-researchgate"></i>](https://www.researchgate.net/profile/Tilendra-Choudhary-2) &nbsp;&nbsp; [<i class="fa-brands fa-linkedin"></i>](https://www.linkedin.com/in/tilendra-choudhary-3111b16a/) &nbsp;&nbsp; [<i class="fa-brands fa-square-github"></i>](https://github.com/tilendra)
  </big></big>
 
 I am always looking for folks who are interested in collaborating.
 
-### Education details:
+## Education details
 
-- Ph.D, Electronics & Electrical Eng.,
+- <b>Ph.D.</b>, Electronics & Electrical Eng.,
 Indian Institute of Technology Guwahati (IIT G), Assam, India, 2020
 
-- M.Tech., Electronics & Communication Eng.,
+- <b>M.Tech.</b>, Electronics & Communication Eng.,
 Indian Institute of Technology Bhubaneswar (IIT BBS), Odisha, India, 2015
 
-- B.E., Electronics & Telecommunication Eng.,
+- <b>B.E.</b>, Electronics & Telecommunication Eng.,
 Chhattisgarh Swami Vivekanand Technical University (State Govt.), Bhilai, Chhattisgarh, India, 2012
+
+## Achievements <i class="fa-solid fa-award fa-bounce" style="color: #062398;"></i>
+
+- Review Editor, Biomedical Signal Processing, Frontiers in Signal Processing
+- Topic Editor, Smart Biomedical Signal Analysis with Machine Intelligence, Frontiers in Signal Processing
+- Worked in collaboration with various personals of Evren Technologies Inc., Emory Univ., GeorgiaTech, University of Pittsburgh, MIT, Altanta VA medical center, Duke Univ.
+- Reviewer of many IEEE, Elsevier, Nature and ACM, journals and conferences.
+- Mentored many PhD, MS and undergraduate students.
+- Acomplished various technical projects in software and hardware levels  
+- Published many good quality journals and conferences. Details can be found in the <b>"Publications"</b> page.  
+
+> :bulb: **Tip:** Remember to appreciate the little things in life.
 
 <!--
 ### <b>Other links:</b>

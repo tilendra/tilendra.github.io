@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Tilendra Blog # blog_name will be displayed in your blog page
+blog_name: Tilendra Blogs # blog_name will be displayed in your blog page
 blog_description: My general blogs
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -170,8 +170,19 @@ disqus_shortname: al-folio # put your disqus shortname
 
 
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  #- name: medium.com
+  #  rss_url: https://medium.com/@al-folio/feed
+  - name: Medium Post
+    posts:
+      - url: https://medium.com/voxel51/cvpr-survival-guide-discovering-research-thats-interesting-to-you-d40b272d4ac1
+        published_date: 2024-07-19
+  
+  - name: IEEE Pulse Post
+    posts:
+      - url: https://www.embs.org/pulse/articles/in-your-ear-a-multimodal-hearables-device-for-the-assessment-of-the-state-of-body-and-mind/
+        published_date: 2024-03-19
+   
+  
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -213,7 +224,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true

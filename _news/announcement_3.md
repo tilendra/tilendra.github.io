@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-07-25 08:00:00-0500
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Media coverage by [**GLOBE NEWSWIRE**](https://www.globenewswire.com/news-release/2023/07/25/2710362/0/en/gammaCore-Non-Invasive-Vagus-Nerve-Stimulation-nVNS-Improves-Attention-and-Memory-in-Patients-with-Posttraumatic-Stress-Disorder-PTSD.html) --- "gammaCore (Non-Invasive Vagus Nerve Stimulation; nVNS) Improves Attention and Memory in Patients with PTSD"
+
+
