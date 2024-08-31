@@ -9,22 +9,30 @@ profile:
   image: IMG_1383_tilendra1_small.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>  &nbsp;&nbsp;  <small><small>Dr. Tilendra Choudhary, Ph.D.</small></small></p>
-    <p>  &nbsp;&nbsp;  <small>Located at Durham, NC, USA</p></small>
+    <p align="center">&nbsp;&nbsp;<small><small>Dr. Tilendra Choudhary, Ph.D.</small></small> </p>
+    <p>&nbsp;&nbsp;<small>Located at Durham, NC, USA</small></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p><img src="./assets/img/myQR.png" alt="Scan me!" width="90" height="90" align="center"></p></p>
+
+    
+    
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello :smiley::wave:
+Hello :smiley::wave: 
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My name is Tilendra Choudhary, a post-doctoral data scientist and researcher at [<b>Duke University, USA</b>](https://duke.edu/) <i class="fa-solid fa-building-columns"></i> with a focus on <b>data science</b>, <b>signal processing</b>, and <b>machine learning</b>. Before here, I have worked closely with <b>Emory + GeorgiaTech Univ.</b> (as post-doc) and <b>Brigosha Technologies R&D</b> (as Research Engineer). As an AI enthusiast, I'm endlessly fascinated by new technologies and innovations in the fields of electronics and computer science. My current areas of research and development include physiological signal analysis, bioinformatics, AI and ML for healthcare and for other domains. Apart from research articles, I always enjoy reading spiritual scriptures :open_book:.
 
 <b>You can find me at these venues:</b> <big><big> &nbsp;&nbsp; [<i class="fa-brands fa-google-scholar"></i>](https://scholar.google.com/citations?user=7YiBBC8AAAAJ&hl=en&inst=10163712085368340378) &nbsp;&nbsp; [<i class="fa-brands fa-researchgate"></i>](https://www.researchgate.net/profile/Tilendra-Choudhary-2) &nbsp;&nbsp; [<i class="fa-brands fa-linkedin"></i>](https://www.linkedin.com/in/tilendra-choudhary-3111b16a/) &nbsp;&nbsp; [<i class="fa-brands fa-square-github"></i>](https://github.com/tilendra)
- </big></big>
+ </big></big> 
+
 
 I am always looking for folks who are interested in collaborating.
+
+
 
 ## Education details
 
@@ -45,7 +53,8 @@ Chhattisgarh Swami Vivekanand Technical University (State Govt.), Bhilai, Chhatt
 - Reviewer of many IEEE, Elsevier, Nature and ACM, journals and conferences.
 - Mentored many PhD, MS and undergraduate students.
 - Acomplished various technical projects in software and hardware levels  
-- Published many good quality journals and conferences. Details can be found in the <b>"Publications"</b> page.  
+- Published many good quality journals and conferences. Details can be found in the <b>"[Publications](/publications/)"</b> page.  
+- Delivered various technical talks.  
 
 > :bulb: **Tip:** Remember to appreciate the little things in life.
 

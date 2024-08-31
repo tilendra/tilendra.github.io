@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Projects
+title: Research
 permalink: /projects/
-description: PAGE CONSTRUCTION IS UNDER PROGRESS....
+description: <b>PAGE CONSTRUCTION IS UNDER PROGRESS....</b>
 nav: true
 nav_order: 3
 display_categories: [work, fun]

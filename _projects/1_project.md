@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
-importance: 1
+title:  PTSD and tcVNS
+description: <b>Effect of Vagus Nerve Stimulation on Cognition Improvement of patients with PTSD</b>
+img: assets/img/publication_preview/vns1.jpg
+importance: 0
 category: work
-related_publications: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+## Introduction
+This post is inspired from our recently published research study on analyzing the effect of Vagus Nerve Stimulation (VNS) for improving cognition and memory power in patients with posttraumatic stress disorder (PTSD). Despite significant advancements in diagnosing and treating mental health disorders through modern science and technology, many patients still suffer from stress-related conditions, including posttraumatic stress disorder (PTSD). PTSD is one of the extreme mental health conditions, characterized by hyperarousal, stress, avoidance, re-experiencing symptoms, and deficits in memory and concentration. Many patients with PTSD have limited or almost no response to available treatments in terms of symptoms and associate cognitive impairment. VNS is a neuromodulation therapy that involves the use of a device to stimulate the vagus nerve, which plays an important role in regulating many bodily functions. The device is noninvasively placed on left/right side of the neck area near thyroid cartilage for a short time. The VNS has a great potential to enhance function when paired with cognitive and motor tasks, which may improve quality of life and productivity. 
+<center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/vns2.jpg" title="VNS image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+</center>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Device placement for tcVNS treatment. (See reference)
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Methods
+We performed a double-blind study on 15 patients with PTSD (10 men and 5 women, mean age 40.4 years) using a noninvasive transcutaneous cervical VNS (tcVNS) device. Patients were randomly assigned to self-administer active or sham VNS stimulation twice daily for a 3-month period. During stimulation, participants finished memory assessment tests including paragraph recall involving paragraph encoding followed by its recall and N-back tests. Their performances were evaluated once in a month in a longitudinal fashion. After three months, they were provided an active VNS device and advised to use twice daily VNS modulation.      
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Results and Analysis
+active stimulation group resulted in a significant improvement in paragraph recall performance following paired with paragraph encoding at two months (p < 0.05), with no such pattern/trend in the sham population. Active tcVNS resulted in a 91% increase in paragraph recall performance within the group (p = 0.03), while the sham stimulation participants exhibited no such improvement. Also, the N-back test results showed a pattern of better performance in the active VNS group as compared with the sham VNS group. Limitations: The sample size for our study was small. Although the active and sham tcVNS devices were developed to deliver a similar sensations of VNS stimulation, the data on participants' perception of whether they were getting active or sham treatment was not collected by researchers.
 
-{% raw %}
+## Conclusions
+This longitudinal study shows benefit for attention and memory symptoms associated with PTSD and suggests that tcVNS may improve quality of life, work, and social functioning for PTSD patients. Future studies are needed to evaluate its generalizability.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Reference
+T. Choudhary et al., "Effect of transcutaneous cervical vagus nerve stimulation on declarative and working memory in patients with Posttraumatic Stress Disorder (PTSD): A pilot study," Journal of Affective Disorders 339 (2023): 418-425. [See publications page.](/publications/) 
 
-{% endraw %}
+
+
+
+
+
+
+
+
+
+
+
