@@ -30,7 +30,8 @@ Hello :smiley::wave:
  </big></big> 
 
 
-I am always looking for folks who are interested in collaborating.
+> :jack_o_lantern: <small><small> You can visit my <b>Short Resume</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](./assets/pdf/Tilendra_Resume.pdf) and my <b>Detailed CV</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](/assets/pdf/Tilendra_CV.pdf). I am always looking for folks who are interested in collaborating. </small></small>
+
 
 
 
@@ -50,7 +51,7 @@ Chhattisgarh Swami Vivekanand Technical University (State Govt.), Bhilai, Chhatt
 - Review Editor, Biomedical Signal Processing, Frontiers in Signal Processing
 - Topic Editor, Smart Biomedical Signal Analysis with Machine Intelligence, Frontiers in Signal Processing
 - Worked in collaboration with various personals of Evren Technologies Inc., Emory Univ., GeorgiaTech, University of Pittsburgh, MIT, Altanta VA medical center, Duke Univ.
-- Reviewer of many IEEE, Elsevier, Nature and ACM, journals and conferences.
+- Reviewer of many IEEE, Elsevier, Nature, npj and ACM, journals and conferences.
 - Mentored many PhD, MS and undergraduate students.
 - Acomplished various technical projects in software and hardware levels  
 - Published many good quality journals and conferences. Details can be found in the <b>"[Publications](/publications/)"</b> page.  
