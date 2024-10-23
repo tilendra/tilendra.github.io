@@ -30,7 +30,7 @@ Hello :smiley::wave:
  </big></big> 
 
 
-> :jack_o_lantern: <small><small> You can visit my <b>Short Resume</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](./assets/pdf/Tilendra_Resume.pdf) and my <b>Detailed CV</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](/assets/pdf/Tilendra_CV.pdf). I am always looking for folks who are interested in collaborating. </small></small>
+> :jack_o_lantern: <small><small> You can visit my <b>Short Resume</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](./assets/pdf/Tilendra_Short_Resume.pdf) and my <b>Detailed CV</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](/assets/pdf/Tilendra_Detailed_CV.pdf). I am always looking for folks who are interested in collaborating. </small></small>
 
 
 
@@ -55,7 +55,7 @@ Chhattisgarh Swami Vivekanand Technical University (State Govt.), Bhilai, Chhatt
 - Mentored many PhD, MS and undergraduate students.
 - Acomplished various technical projects in software and hardware levels  
 - Published many good quality journals and conferences. Details can be found in the <b>"[Publications](/publications/)"</b> page.  
-- Delivered various technical talks.  
+- Delivered various technical talks focused on AI, ML and signal processing for healthcare and wearables, in India and USA.  
 
 > :bulb: **Tip:** Remember to appreciate the little things in life.
 
