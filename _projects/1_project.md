@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Physiological Signal Analysis
-description: <b>Analysis of Physiological Signal Waveforms</b>
+description: <b>Analysis of Physiological Signal Waveforms Using AI, ML and Signal Processing Tools</b>
 img: assets/img/publication_preview/heart4.jpeg
 importance: 0
 category: work
@@ -20,7 +20,7 @@ giscus_comments: false
 </div>
 
 ## Description
-I am highly interested in analyzing physiological waveforms with signal processing and machine learning tools. These waveforms include mainly cardiorespiratory signals, e.g., ECG, PPG, SCG, PCG, ABP and respiratory efforts. The variabilities in their waves are the manifestations of various physiological events in our body. Development of smart wearables has been given much attention for continuous personalized monitoring. Utilizing smart AI tools to bring those hidden information from multimodal signals data for prospective realtime predictions always mesmerize me. My numerous publications are dedicated to this domain.      
+I am highly interested in analyzing physiological waveforms with signal processing and machine learning tools. These waveforms include mainly cardiorespiratory signals, e.g., ECG, PPG, SCG, PCG, ABP and respiratory efforts. The variabilities in their waves are the manifestations of various physiological events in our body. Development of smart wearables has been given much attention for continuous personalized monitoring. Utilizing smart AI tools to bring those hidden information from multimodal signals data for prospective realtime predictions always mesmerize me. Elucidating the importance of physiomarkers, derived from wave-morphologies, has a great impact on characterizing any clinical events. Applications like cardiovascular health assessment, BP estimation, temporal analysis of clinical events, and biometric recognition could be explored. My numerous publications are dedicated to this domain.      
 
 
 <center>

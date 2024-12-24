@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: <b>PAGE CONSTRUCTION IS UNDER PROGRESS....</b>
+description: <b>Research Focus and Interests</b>
 nav: true
 nav_order: 3
 display_categories: [work, fun]
