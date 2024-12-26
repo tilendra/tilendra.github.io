@@ -2,7 +2,7 @@
 layout: page
 title:  Traffic Scene Perception for Autonomous Driving
 description: <b>How self driving cars perceive cluttered traffic scene?</b>
-img: assets/img/publication_preview/adas1.png
+img: /assets/img/publication_preview/adas1.png
 importance: 0
 category: work
 giscus_comments: false
@@ -11,7 +11,7 @@ giscus_comments: false
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/adas.png" title="AD image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/publication_preview/adas.png" title="AD image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>

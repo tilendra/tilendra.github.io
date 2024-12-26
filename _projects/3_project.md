@@ -2,7 +2,7 @@
 layout: page
 title:  PTSD and tcVNS
 description: <b>Effect of Vagus Nerve Stimulation on Cognition Improvement of patients with PTSD</b>
-img: assets/img/publication_preview/vns1.jpg
+img: /assets/img/publication_preview/vns1.jpg
 importance: 0
 category: work
 giscus_comments: false
@@ -15,7 +15,7 @@ Despite significant advancements in diagnosing and treating mental health disord
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/vns2.jpg" title="VNS image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/publication_preview/vns2.jpg" title="VNS image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>

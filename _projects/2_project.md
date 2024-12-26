@@ -2,7 +2,7 @@
 layout: page
 title:  AI and ML Tools for Analyzing Critical Illness
 description: <b>ML-based Analysis of Critical Illness Such as Sepsis, ARF, ARDS, Septic-Shock, and Blood Transfusion in ICU using Patients' Clinical Data</b>
-img: assets/img/publication_preview/icu2.jpeg
+img: /assets/img/publication_preview/icu2.jpeg
 importance: 0
 category: work
 giscus_comments: false
@@ -11,7 +11,7 @@ giscus_comments: false
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/arf2.jpeg" title="arf image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/publication_preview/arf2.jpeg" title="arf image" width="400" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -37,7 +37,7 @@ This study investigates distinct clinical phenotypes of patients with sepsis-ind
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/bmc.jpeg" title="arf phenotype image" width="800" height="400" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/publication_preview/bmc.jpeg" title="arf phenotype image" width="800" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>

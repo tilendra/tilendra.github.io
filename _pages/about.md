@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p align="center">&nbsp;&nbsp;<small><small>Dr. Tilendra Choudhary, Ph.D.</small></small> </p>
     <p>&nbsp;&nbsp;&nbsp;<small><small>Located at Durham, NC, USA</small></small></p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p><img src="./assets/img/myQR.png" alt="Scan me!" width="90" height="90" align="center"></p></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p><img src="/assets/img/myQR.png" alt="Scan me!" width="90" height="90" align="center"></p></p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><small> h-index: 12</small></small></p>
 
     
@@ -25,13 +25,13 @@ social: true # includes social icons at the bottom of the page
 Hello :smiley::wave: 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My name is Tilendra Choudhary, a post-doctoral data scientist and researcher at [<b>Duke University, USA</b>](https://duke.edu/) <i class="fa-solid fa-building-columns"></i>. I am working at [<b>Kamaleswaran Lab</b>](https://www.kamaleswaran.com/home) led by [<b>Dr. Rishikesan Kamaleswaran</b>](https://surgery.duke.edu/profile/rishi-kamaleswaran) with a focus on <b>data science</b>, <b>signal processing</b>, and <b>machine learning</b>. Before here, I have worked closely with <b>Emory + GeorgiaTech Univ.</b> (as post-doc) and <b>Brigosha Technologies R&D</b> (as Research Engineer). As an AI enthusiast, I'm endlessly fascinated by new technologies and innovations in the fields of electronics and computer science. My current areas of research and development include physiological signal processing, health informatics, AI and ML for healthcare and for other domains. Apart from research articles, I always enjoy reading spiritual scriptures :open_book:.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am Tilendra Choudhary, a post-doctoral data scientist and researcher at [<b>Duke University, USA</b>](https://duke.edu/) <i class="fa-solid fa-building-columns"></i>. I am working at [<b>Kamaleswaran Lab</b>](https://www.kamaleswaran.com/home) led by [<b>Dr. Rishikesan Kamaleswaran</b>](https://surgery.duke.edu/profile/rishi-kamaleswaran) with a focus on <b>data science</b>, <b>signal processing</b>, and <b>machine learning</b>. Before here, I have worked closely with <b>Emory + GeorgiaTech Univ.</b> (as post-doc) and <b>Brigosha Technologies R&D</b> (as Research Engineer). As an AI enthusiast, I'm endlessly fascinated by new technologies and innovations in the fields of electronics and computer science. My current areas of research and development include physiological signal processing, health informatics, AI and ML for healthcare and for other domains. Apart from research articles, I always enjoy reading spiritual scriptures :open_book:.
 
 <b>You can find me at these venues:</b> <big><big> &nbsp;&nbsp; [<i class="fa-brands fa-google-scholar"></i>](https://scholar.google.com/citations?user=7YiBBC8AAAAJ&hl=en&inst=10163712085368340378) &nbsp;&nbsp; [<i class="fa-brands fa-researchgate"></i>](https://www.researchgate.net/profile/Tilendra-Choudhary-2) &nbsp;&nbsp; [<i class="fa-brands fa-linkedin"></i>](https://www.linkedin.com/in/tilendra-choudhary-3111b16a/) &nbsp;&nbsp; [<i class="fa-brands fa-square-github"></i>](https://github.com/tilendra)
  </big></big> 
 
 
-> :jack_o_lantern: <small><small> You can visit my <b>Short Resume</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](./assets/pdf/Tilendra_Short_Resume.pdf) and my <b>Detailed CV</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](/assets/pdf/Tilendra_Detailed_CV.pdf). I am always looking for folks who are interested in collaborating. </small></small>
+> :jack_o_lantern: <small><small> You can visit my <b>Short Resume</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](/assets/pdf/Tilendra_Short_Resume.pdf) and my <b>Detailed CV</b> [<b>here <i class="fa-solid fa-file-pdf"></i></b>](/assets/pdf/Tilendra_Detailed_CV.pdf). I am always looking for folks who are interested in collaborating. </small></small>
 
 
 

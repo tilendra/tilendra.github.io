@@ -2,7 +2,7 @@
 layout: page
 title:  Physiological Signal Analysis
 description: <b>Analysis of Physiological Signal Waveforms Using AI, ML and Signal Processing Tools</b>
-img: assets/img/publication_preview/heart4.jpeg
+img: /assets/img/publication_preview/heart4.jpeg
 importance: 0
 category: work
 giscus_comments: false
@@ -26,7 +26,7 @@ I am highly interested in analyzing physiological waveforms with signal processi
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/tc_res_hrv.jpg" title="HRV image" width="800" height="400" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/publication_preview/tc_res_hrv.jpg" title="HRV image" width="800" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
@@ -37,7 +37,7 @@ I am highly interested in analyzing physiological waveforms with signal processi
 <center>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/scg_resp.png" title="SCG Resp image" width="800" height="400" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="/assets/img/publication_preview/scg_resp.png" title="SCG Resp image" width="800" height="400" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 </center>
