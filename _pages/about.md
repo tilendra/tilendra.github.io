@@ -58,7 +58,7 @@ Chhattisgarh Swami Vivekanand Technical University (State Govt.), Bhilai, Chhatt
 - Published many good quality journals and conferences. Details can be found in the <b>"[Publications](/publications/)"</b> page.  
 - Delivered various technical talks focused on AI, ML and signal processing for healthcare and wearables, in India and USA.  
 
-> :bulb: **Tip:** Remember to appreciate the little things in life....
+> :bulb: **Tip:** Remember to appreciate the little things in life...
 
 
 
