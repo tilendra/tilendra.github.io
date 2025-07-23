@@ -198,6 +198,12 @@ external_sources:
       - url: https://www.technewsworld.com/story/a-glimpse-into-the-future-of-ai-electric-cars-179300.html
         published_date: 2024-07-29
 
+
+  - name: GrowKudos Post
+    posts:
+      - url: https://link.growkudos.com/1elpdu4ts74
+        published_date: 2025-07-03
+
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
@@ -224,7 +230,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 4 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
