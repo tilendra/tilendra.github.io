@@ -1,0 +1,346 @@
+/*******************************************************************************
+ * Scroll-reveal, hover, entrance and publication-category animations.
+ ******************************************************************************/
+
+// ── Keyframes ──────────────────────────────────────────────────────────────
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.88); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes blinkCursor {
+  50% { opacity: 0; }
+}
+
+@keyframes badgePop {
+  0%   { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+  70%  { transform: scale(1.12) rotate(3deg);  opacity: 1; }
+  100% { transform: scale(1)    rotate(0deg);  opacity: 1; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+@keyframes pillSlideDown {
+  from { opacity: 0; transform: translateY(-12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+// ── Page header entrance ────────────────────────────────────────────────────
+
+.post-title {
+  animation: fadeInUp 0.6s ease 0.05s both;
+}
+
+.post .desc {
+  animation: fadeInUp 0.6s ease 0.2s both;
+}
+
+// ── Profile card entrance ───────────────────────────────────────────────────
+
+.profile img {
+  animation: fadeIn 0.9s ease 0.1s both;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    transform: scale(1.02);
+  }
+}
+
+.profile .more-info {
+  animation: slideInLeft 0.7s ease 0.35s both;
+}
+
+// ── Scroll-reveal base ──────────────────────────────────────────────────────
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.55s ease, transform 0.55s ease;
+
+  &.revealed {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// ── Section headings animated underline ────────────────────────────────────
+
+article h2 {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: var(--global-theme-color);
+    transition: width 0.5s ease;
+  }
+
+  &.h2-revealed::after {
+    width: 2.8rem;
+  }
+}
+
+// ── Social icon hover bounce ────────────────────────────────────────────────
+
+.social .contact-icons a {
+  display: inline-block;
+  transition: transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  &:hover {
+    transform: translateY(-5px) scale(1.15);
+  }
+}
+
+// ── Navbar links underline slide ───────────────────────────────────────────
+
+.navbar .nav-item .nav-link {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: var(--global-theme-color);
+    transition: width 0.25s ease;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+// ── Stat counter ────────────────────────────────────────────────────────────
+
+.stat-counter {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+}
+
+// ── Publication list item hover ─────────────────────────────────────────────
+
+.publications ol.bibliography li {
+  border-radius: 8px;
+  padding: 0.85rem 0.65rem;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.09);
+    background-color: var(--global-card-bg-color);
+  }
+}
+
+// ── Publication quick-nav pills ─────────────────────────────────────────────
+
+.pub-quicknav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.6rem 0 2rem;
+
+  @for $i from 1 through 3 {
+    .pub-pill:nth-child(#{$i}) {
+      animation: pillSlideDown 0.45s ease #{$i * 0.1}s both;
+    }
+  }
+}
+
+.pub-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 1rem 0.4rem 0.5rem;
+  border-radius: 50px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    text-decoration: none !important;
+  }
+
+  .pill-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #fff;
+    flex-shrink: 0;
+  }
+
+  .pill-label {
+    color: var(--global-text-color);
+  }
+}
+
+.pill-a {
+  background-color: color-mix(in srgb, #e74c3c 12%, var(--global-bg-color));
+  border-color: color-mix(in srgb, #e74c3c 35%, transparent);
+  &:hover { border-color: #e74c3c; }
+  .pill-letter { background-color: #e74c3c; }
+}
+
+.pill-b {
+  background-color: color-mix(in srgb, #2980b9 12%, var(--global-bg-color));
+  border-color: color-mix(in srgb, #2980b9 35%, transparent);
+  &:hover { border-color: #2980b9; }
+  .pill-letter { background-color: #2980b9; }
+}
+
+.pill-c {
+  background-color: color-mix(in srgb, #27ae60 12%, var(--global-bg-color));
+  border-color: color-mix(in srgb, #27ae60 35%, transparent);
+  &:hover { border-color: #27ae60; }
+  .pill-letter { background-color: #27ae60; }
+}
+
+// ── Publication section headers ─────────────────────────────────────────────
+
+.pub-section {
+  margin-top: 3rem;
+  scroll-margin-top: 4rem;
+}
+
+.pub-section-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  margin-bottom: 1.4rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--global-divider-color);
+
+  &.header-animated .pub-cat-badge {
+    animation: badgePop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+
+  &.header-animated .pub-section-meta {
+    animation: slideInRight 0.45s ease 0.12s both;
+  }
+}
+
+.pub-cat-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  &.badge-a { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+  &.badge-b { background: linear-gradient(135deg, #2980b9, #1a5276); }
+  &.badge-c { background: linear-gradient(135deg, #27ae60, #1e8449); }
+}
+
+.pub-section-meta {
+  flex: 1;
+}
+
+.pub-section-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  color: var(--global-text-color);
+}
+
+.pub-section-desc {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin: 0;
+}
+
+// Override default h2.bibliography so it doesn't conflict with our headers
+.pub-section .publications h2.bibliography {
+  color: var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 0.8rem;
+  margin-top: 1.8rem;
+  font-size: 1.1rem;
+}
+
+// ── News item hover ─────────────────────────────────────────────────────────
+
+.news table tr {
+  transition: background-color 0.2s ease;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: var(--global-card-bg-color);
+  }
+}
+
+// ── Featured / selected paper cards ────────────────────────────────────────
+
+.selected-papers ol.bibliography li,
+#selected-papers ol.bibliography li {
+  animation: fadeInUp 0.5s ease both;
+
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) { animation-delay: #{$i * 0.08}s; }
+  }
+}
+
+// ── Typewriter cursor ───────────────────────────────────────────────────────
+
+.typewriter-cursor::after {
+  content: '|';
+  animation: blinkCursor 0.75s step-start infinite;
+  margin-left: 1px;
+}
+
+// ── Card shimmer loading placeholder (optional) ─────────────────────────────
+
+.shimmer-bg {
+  background: linear-gradient(
+    90deg,
+    var(--global-card-bg-color) 25%,
+    var(--global-divider-color) 50%,
+    var(--global-card-bg-color) 75%
+  );
+  background-size: 200% auto;
+  animation: shimmer 1.5s linear infinite;
+}

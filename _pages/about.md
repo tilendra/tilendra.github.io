@@ -2,17 +2,18 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'><b>Post-doctoral Data Scientist and Researcher</b></a>
+subtitle: <a href='#'><b>Post-doctoral Data Scientist and Researcher (Duke University)</b></a>
 
 profile:
   align: right
-  image: IMG_1383_tilendra1_small.jpg
+  image: tc_photo3.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p align="center">&nbsp;&nbsp;<small><small>Dr. Tilendra Choudhary, Ph.D.</small></small> </p>
     <p>&nbsp;&nbsp;&nbsp;<small><small>Located at Durham, NC, USA</small></small></p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p><img src="/assets/img/myQR.png" alt="Scan me!" width="90" height="90" align="center"></p></p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><small> h-index: 12</small></small></p>
+    <p><small><small>📊 <b>Scholar Stats</b> | h-index: <b><span class="stat-counter" data-target="15">15</span></b> | i10-index: <b><span class="stat-counter" data-target="15">15</span></b> &nbsp;|&nbsp; Citations: <b><span class="stat-counter" data-target="524">524</span></b></small></small></p>
+    <p><small><small><i>🔄 Last updated: Jun 2026</i></small></small></p>
 
     
     
